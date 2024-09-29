@@ -1,10 +1,10 @@
-terraform { 
-  cloud { 
-    
-    organization = "DanchoOrg" 
+terraform {
+  cloud {
 
-    workspaces { 
-      name = "fem-eci-github" 
-    } 
-  } 
+    organization = "DanchoOrg"
+
+    workspaces {
+      name = "fem-eci-github"
+    }
+  }
 }
