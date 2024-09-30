@@ -1,5 +1,6 @@
 locals {
   repos = {
+    
     "fem-eci-terraform-tfe" = {
       description        = "Automation for Terraform Enterprise"
       gitignore_template = "Terraform"
@@ -15,6 +16,7 @@ locals {
       topics             = ["frontend-masters", "terraform"]
       visibility         = "public"
     }
+
     "fem-eci-terraform-aws-network" = {
       description        = "Automation for GitHub"
       gitignore_template = "Terraform"
@@ -37,7 +39,8 @@ locals {
       name	= "fem-eci-terraform-product-service"
       topics	= ["frontend-masters", "terraform"]
       visibility	= "public"
-}
+    }
+    
     "fem-eci-service" = {
       description        = "Example product service"
       gitignore_template = "Go"
